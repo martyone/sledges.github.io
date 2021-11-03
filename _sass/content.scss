@@ -228,4 +228,8 @@
       margin-top: 0;
     }
   }
+
+  .nested-numbered-list ol { margin-top: 0em; counter-reset: item; padding-left: 10px; }
+  .nested-numbered-list li { display: block }
+  .nested-numbered-list li:before { position: static; content: counters(item, ".") " "; counter-increment: item }
 }
