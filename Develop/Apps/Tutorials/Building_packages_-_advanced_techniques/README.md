@@ -348,8 +348,8 @@ $ sfdk compiledb
 $ cp compile_commands.json ../automakesample/
 ```
 
-Now the Automake based project may be opened in Sailfish IDE. Use `File
-> Open File or Project...` to open the compilation database file under
+Now the Automake based project may be opened in Sailfish IDE. Use
+`File > Open File or Project...` to open the compilation database file under
 the source directory (be careful to not open the original under the
 build directory). After opening the project, ensure to
 
